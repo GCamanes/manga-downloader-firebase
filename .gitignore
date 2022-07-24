@@ -1,5 +1,9 @@
 # Python
 *.pyc
 
+# Files
+manga-dl/*
+
 # Firebase
 ServiceAccountKey.json
+.DS_Store

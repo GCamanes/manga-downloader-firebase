@@ -55,7 +55,7 @@ class ConstantsHandler(object):
 
     @constant
     def WEBSITE(self):
-        return 'https://w12.mangafreak.net/'
+        return 'https://w13.mangafreak.net/'
 
     @constant
     def WRONG_LINK_CHECKING(self):

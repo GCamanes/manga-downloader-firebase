@@ -29,7 +29,7 @@ class MangaManager:
         tmpFilePath = '{}_{}_tmp.txt'.format(Constants.MANGA_INFO_PATH, link[1:])
         os.system("curl -s '{}' > {}".format(url, filePath))
         # Remove non ascii characters
-        os.system("bash ./python/remove_non_ascii.sh {} {}".format(filePath, tmpFilePath))
+        os.system("bash ./remove_non_ascii.sh {} {}".format(filePath, tmpFilePath))
         # read the file
         f = open(filePath, 'r')
         content = f.readlines()
@@ -50,7 +50,7 @@ class MangaManager:
         tmpFilePath = '{}_{}_tmp.txt'.format(Constants.CHAPTER_INFO_PATH, link[1:])
         os.system("curl -s '{}' > {}".format(url, filePath))
         # Remove non ascii characters
-        os.system("bash ./python/remove_non_ascii.sh {} {}".format(filePath, tmpFilePath))
+        os.system("bash ./remove_non_ascii.sh {} {}".format(filePath, tmpFilePath))
         # read the file
         f = open(filePath, 'r')
         content = f.readlines()
