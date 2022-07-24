@@ -17,6 +17,4 @@ You can:
 
 ## Syncing download with an external drive
 
-````
-rsync -aEv --delete "Desktop/fangapp/manga-downloader-firebase/manga-dl" "/Volumes/DD-MyPassport"
-```
+```rsync -aEv --delete "Desktop/fangapp/manga-downloader-firebase/manga-dl" "/Volumes/DD-MyPassport"```
